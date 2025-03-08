@@ -20,6 +20,7 @@ pipeline {
                 }
             }
         }
+#onuromertunc
         stage('Login to Docker Hub') {
             steps {
                 script {
